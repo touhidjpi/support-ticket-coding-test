@@ -29,29 +29,33 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## To use this code, please follow the instructions below:
+Step 1:
+1.	Run composer update.
+2.	Run npm install or npm update.
+3.	Run php artisan migrate.
+4.	Run php artisan key:generate.
+5.	Run npm install jquery.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Step 2: Configure your mail settings in the .env file:
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=465
+MAIL_USERNAME=yourmail@gmail.com
+MAIL_PASSWORD=yourpassword
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="info@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
 
-### Premium Partners
+Step 3:
+1.	Run php artisan optimize:clear.
+2.	Run npm run dev.
+3.	Run php artisan serve.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+After completing all the steps, you need to register by providing the necessary information. This code does not include a user management system, so after registration, you need to make some users admins by updating the database directly. 
 
-## Contributing
+To change a user’s role to admin, update the role field to ‘ADM’.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
 ## Code of Conduct
 
